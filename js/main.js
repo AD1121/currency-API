@@ -61,6 +61,7 @@ async function compared_currencies() {
     let countryHTML = ''
     for (let currency of Object.keys(list)) {
       countryHTML = list[currency]
+      console.log(countryHTML)
     }
 
     // Adding the result into the h3 field
@@ -69,6 +70,10 @@ async function compared_currencies() {
     searchInput1.value = '' // empty the value of the first input
     searchInput2.value = '' // empty the value of the second input
   } catch (error) {
+    searchInput1.value = '' // empty the value of the first input
+    searchInput2.value = '' // empty the value of the second input
+    comparedCurrencies.innerText =
+      'Invalid currency, please add a currency from the list below!'
     throw new Error(error)
   }
 }
