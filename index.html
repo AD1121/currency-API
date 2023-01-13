@@ -22,13 +22,25 @@
     <div class="content">
       <div class="header">
         <h2>See the latest rate for your choosen currency</h2>
-
+        <p>
+          Choose your currency from the list below and compare the value of the
+          currencies
+        </p>
         <div class="search-section">
           <input
             type="text"
-            id="search-input"
+            class="search-input"
+            id="search-input-one"
             placeholder="Type currency (eg: eur or sek)"
           />
+          <i class="fa-solid fa-arrow-right-arrow-left"></i>
+          <input
+            type="text"
+            class="search-input"
+            id="search-input-two"
+            placeholder="Type currency (eg: eur or sek)"
+          />
+
           <button id="search-btn">
             <i class="fas fa-search"></i>
           </button>
