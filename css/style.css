@@ -80,3 +80,37 @@ table, td, th {
   margin-left: 4px;
   margin-right: 4px;
 }
+
+/* responsive */
+@media only screen and (max-width: 600px) {
+  .tbl {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .tbl {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  .tbl {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .tbl {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

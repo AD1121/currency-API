@@ -9,6 +9,7 @@ const comparedCurrencies = document.getElementById('compared-currencies')
 // Function for the search button
 searchBtn.addEventListener('click', compared_currencies)
 
+// Getting all currencies and countries to add them to the list and insert into the table
 async function list_all() {
   try {
     const response = await fetch(
