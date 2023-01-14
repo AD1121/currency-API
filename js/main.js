@@ -3,6 +3,7 @@ const searchBtn = document.getElementById('search-btn')
 const tblBody = document.querySelector('table tbody')
 const searchInput1 = document.getElementById('search-input-one')
 const searchInput2 = document.getElementById('search-input-two')
+
 // Getting h3 to add the result of the both input
 const comparedCurrencies = document.getElementById('compared-currencies')
 
